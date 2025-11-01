@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ---
 
 ## 📘 Usage
-1. Edit the Configuration
+1. **Edit the Configuration**
     Open the Script (`scroll_exporter.py`) and update these fields:
     ```python
     ES_HOST = "https://your-elastic-host.com"
@@ -35,13 +35,13 @@ pip install -r requirements.txt
     ES_PASS = "your-password"
     INDEX_NAME = "your-index-name"
     ```
-2. Run the Script
+2. **Run the Script**
 
 ```bash
 python scroll_exporter.py
 
 ```
-3. Exported Files
+3. **Exported Files**
 The exported JSON files will be saved in the `es_exports/` folder:
 
 ```txt
